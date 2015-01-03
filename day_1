@@ -1,0 +1,166 @@
+{
+ "metadata": {
+  "celltoolbar": "Slideshow",
+  "name": "",
+  "signature": "sha256:dfb8ca82885114d068467d108dcbe7d768cb03a514d1cfeb6ca90a4c27c06c66"
+ },
+ "nbformat": 3,
+ "nbformat_minor": 0,
+ "worksheets": [
+  {
+   "cells": [
+    {
+     "cell_type": "heading",
+     "level": 1,
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "source": [
+      "from IPython.display import Image"
+     ]
+    },
+    {
+     "cell_type": "heading",
+     "level": 1,
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "source": [
+      "Welcome to Computer Science at REALM, Spring 2015."
+     ]
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "profile_dir = get_ipython().profile_dir.location\n",
+      "profile_dir"
+     ],
+     "language": "python",
+     "metadata": {
+      "slideshow": {
+       "slide_type": "fragment"
+      }
+     },
+     "outputs": [
+      {
+       "metadata": {},
+       "output_type": "pyout",
+       "prompt_number": 1,
+       "text": [
+        "u'/Users/christinajenkins/.ipython/profile_default'"
+       ]
+      }
+     ],
+     "prompt_number": 1
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "Image(url='http://python.org/images/python-logo.gif')"
+     ],
+     "language": "python",
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "outputs": [
+      {
+       "ename": "NameError",
+       "evalue": "name 'Image' is not defined",
+       "output_type": "pyerr",
+       "traceback": [
+        "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m\n\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+        "\u001b[0;32m<ipython-input-2-1d817c93bba7>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mImage\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'http://python.org/images/python-logo.gif'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+        "\u001b[0;31mNameError\u001b[0m: name 'Image' is not defined"
+       ]
+      }
+     ],
+     "prompt_number": 2
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "print ('Hello, World!')"
+     ],
+     "language": "python",
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "outputs": [
+      {
+       "output_type": "stream",
+       "stream": "stdout",
+       "text": [
+        "Hello, World!\n"
+       ]
+      }
+     ],
+     "prompt_number": 3
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [
+      "Image(url='http://octodex.github.com/images/pythocat.png')"
+     ],
+     "language": "python",
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "outputs": [
+      {
+       "ename": "NameError",
+       "evalue": "name 'Image' is not defined",
+       "output_type": "pyerr",
+       "traceback": [
+        "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m\n\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+        "\u001b[0;32m<ipython-input-4-dc39c24575f7>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mImage\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0murl\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m'http://octodex.github.com/images/pythocat.png'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+        "\u001b[0;31mNameError\u001b[0m: name 'Image' is not defined"
+       ]
+      }
+     ],
+     "prompt_number": 4
+    },
+    {
+     "cell_type": "markdown",
+     "metadata": {
+      "slideshow": {
+       "slide_type": "slide"
+      }
+     },
+     "source": []
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [],
+     "language": "python",
+     "metadata": {},
+     "outputs": [],
+     "prompt_number": 4
+    },
+    {
+     "cell_type": "code",
+     "collapsed": false,
+     "input": [],
+     "language": "python",
+     "metadata": {},
+     "outputs": []
+    }
+   ],
+   "metadata": {}
+  }
+ ]
+}
